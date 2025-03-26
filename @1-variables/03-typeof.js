@@ -10,12 +10,13 @@ let string = "This is a string"
 let number = 1
 let bool = true
 let obj = { name: "Jhon Doe"}
-let array = ["Maçã", "Banana", "Pêra"]
-let func = function () { return "This is a function"}
+let array = [1, 2, 3]
+let func = function () { return "Any value"}
 let und // undefined
+let nulo = null
 
-const types = [string, number, bool, obj, array, func, und]
+const types = [string, number, bool, obj, array, func, und, nulo]
 
 for(let i = 0; i < types.length; i++) {
-    console.log(typeof types[i])
+    console.log(`${types[i]} → ${typeof types[i]}`)
 }
